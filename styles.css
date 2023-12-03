@@ -1,0 +1,109 @@
+/*STYLESHEET*/
+
+/* Formatting the h1 header */
+h1{
+    color: ivory;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    
+    
+}
+
+/* Formatting the h3 header and p section */
+h3, p{
+    color: ivory;
+    text-align: left;
+    padding: 10px;
+}
+
+/* Formatting the about class section */
+#about {
+    text-indent: 10%;
+    text-transform: uppercase;
+    font-size: x-large;
+    
+}
+
+/* Formatting the image */
+img{
+    border-radius: 50%;
+    display: block;
+    margin-left: 10%;
+    margin-right: auto;
+    width: 50%;
+    max-width: 30%;
+    max-height: 30%;
+    float: left;
+
+}
+
+/* Formatting the webpage background */
+body{
+    background-image: url(./Images/170423-HD.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+    background-color: #cccccc;
+}
+
+/* Formatting links */
+a{
+    text-decoration: underline;
+    line-height: 25px;
+}
+
+/* Formatting links according to it's state */
+a:link{
+    color: ivory;
+}
+a:visited{
+    color: rgb(245, 81, 245);
+}
+
+a:hover{
+    color: rgb(95, 235, 235);
+}
+
+/* Changing the auto generated numbers' colour */
+li::marker{
+    color: ivory;
+}
+/* Blocking the links section from wrapping around the image, which floats left */
+.links{
+    clear: both;
+    float: left;
+    background-color: rgb(128, 128,128, 0.3);
+}
+
+/* Formatting the hobbies section */
+#hobbies{
+    float: left;
+    font-size: larger;
+    padding-left: 10%;
+    line-height: 46px;
+    color: ivory;
+    background-color: rgb(128, 128,128, 0.3);
+}
+
+/* Formatting the contact details section */
+
+.contact{
+    clear: both;
+    color: ivory;
+}
+
+/* Formatting the webpage footer orientation */
+
+footer{
+    clear: both;
+    padding-top:0%;
+    background-color: rgb(128, 128,128, 0.3);
+}
+
+/* General text format */
+
+*{
+    font-family: Garamond serif;
+    font-weight: 600;
+    text-decoration: solid;
+}
